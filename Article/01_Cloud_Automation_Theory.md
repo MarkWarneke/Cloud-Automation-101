@@ -1,14 +1,16 @@
-# Cloud Automation Theory
+# Cloud Automation Theory [>](02_Cloud_Automation_Basics.md)
 
 ## Table of content
 
-- Objectives
-- Cloud Automation Theory
-- Idempotence
-- Approach
-- Type
-- Goal
-- Common automation tasks
+- [Objectives](#objectives)
+- [Introduction Cloud Automation Theory](#introduction-cloud-automation-theory)
+- [Idempotence](#idempotence)
+- [Approach](#approach)
+- [Type](#type)
+- [Goal](#goal)
+- [Common automation tasks](#common-automation-tasks)
+- [Source](#source)
+- [Links](#links)
 
 ## Objectives
 
@@ -20,13 +22,8 @@
 
 Distinguish between:
 
-- Provisioning
-- Configuration
-
-**Provisioning** Runbook (PowerShell)
-
-
-**Configuration** Desired State
+- **Provisioning** Runbook (PowerShell)
+- **Configuration** Desired State
 
 ## Idempotence
 
@@ -73,18 +70,14 @@ Changes are committed, and the build process spins up a new server and deploys t
 - **Running backups.** Azure Automation is very helpful for running regular backups of non-database systems, such as backing up Blob storage at certain intervals.
 - **Deploying patches.** Azure Automation allows you to develop a runbook to manage the updates at scheduled times to manage patch remediation. Ensure machines continually align with configured security policy.
 
-
 ## Source
 
 [openedx.microsoft - DEVOPS200](
 https://openedx.microsoft.com/courses/course-v1:Microsoft+DEVOPS200.2x+2018_T1/info)
 
-## Next
+## Links
 
-[Cloud Automation Basics](02_Cloud_Automation.md)
+[**Next** Cloud Automation Basics](02_Cloud_Automation_Basics.md)
 
-## Home
-
-[Tabel of contents](README.md)
-
-[Home](../README.md)
+- [Tabel of contents](README.md)
+- [Home](../README.md)

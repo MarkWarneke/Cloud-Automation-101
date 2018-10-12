@@ -1,25 +1,67 @@
-# Pester
+# Cloud Automation Software Testing [<](04_Cloud_Automation_Version_Control.md) [>](06_Cloud_Automation_Declarative.md)
+
+## Table of content
+
+- [Introduction](#introduction)
+    - [Unit Test](#unit-test)
+    - [Integration Test](#integration-test)
+    - [System Test](#system-test)
+- [Tools](#tools)
+- [Pester](#pester)
+    - [Install Pester](#install-pester)
+    - [Demonstration PEster](#demonstration-pester)
+    - [Assertion](#assertion)
+    - [Tips for working with Azure Resources](#tips-for-working-with-azure-resources)
+        - [Should](#should)
+            - [Throw](#throw)
+            - [BeOfType](#beoftype)
+    - [Checks Type](#checks-type)
+    - [General Tips](#general-tips)
+- [Links](#links)
+
+## Introduction
+
+Levels, Unit, Integration, System, Acceptence
+
+### Unit Test
+
+Per function
+
+### Integration Test
+
+Components together
+
+### System Test
+
+Complete System
+
+## Tools
+
+- PowerShell Unittest [Pester](https://github.com/pester/Pester)
+- Python Unittest [unittest](https://docs.python.org/3/library/unittest.html)
+
+## Pester
 
 Pester is the ubiquitous test and mock framework for PowerShell.
 Link to [Pester](https://github.com/pester/Pester)
 
-## Install
+### Install Pester
 
 ```PowerShell
 Install-Module -Name Pester -Force -SkipPublisherCheck
 ```
 
-## Demonstration
+### Demonstration PEster
 
 Run Test. You can also invoke your test by running `Invoke-Pester $Path`.
 
 ```PowerShell
-.\Test-Devision.ps1
+Code\Pester\Test-Devision.ps1
 ```
 
-Test it here [Code](Test-Division.ps1)
+Test it here [Code](Code\Pester\Test-Division.ps1)
 
-## Assertion
+### Assertion
 
 Example of how to do assertions. You can use the Pipe "|" and Should function to test the output.
 
@@ -31,7 +73,7 @@ Describe 'Notepad' {
 }
 ```
 
-## Tips for working with Azure Resources
+### Tips for working with Azure Resources
 
 Use a generated timestamp to avoid resources to be accidentally deleted by removing the ResourceGroup.
 Create a dedicated ResourceGroup that you are able to delete after your test case.
@@ -80,18 +122,18 @@ To remove all ResoruceGroups you can just search for them based on the naming co
     Get-AzureRmResourceGroup -Name "$NamingConvention*" | Remove-AzrueRmResourceGroup # -Force
 ```
 
-### Should
+#### Should
 
 See the [Pester Wiki](https://github.com/pester/Pester/wiki) to learn about other assertions that you can use like: `Be`, `BeExactly`, `BeLike`, `BeOfType`, `BeTrue`, `Exist`, `Throw`
 
 Some examples I frequently use.
 
-#### Throw
+##### Throw
 
 If you want to ensure your script is validateing your parameters e.g. when using [Parameter and Variable Validations Attributes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-6#parameter-and-variable-validation-attributes) like [[ValidateSet](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-6#validateset-attribute)("Blue", "Red")] to get a nice autocomplete feature. Use a Parameter test.
 
 ```PowerShell
-# Returns Color
+ # Returns Color
 function My-Function {
     param( [ValidateSet("Blue", "Red")] $Color )
     $Color
@@ -105,7 +147,7 @@ Describe "My-Function Parameter" {
 
 Notice the **curly braces around the function call** My-Function in order to assert the throw.
 
-#### BeOfType
+##### BeOfType
 
 To test if a particular type is returned for instance when testing AzureResources you can use `BeOfType` assertion.
 
@@ -125,6 +167,14 @@ Describe "New-AzureRmResourceGroup Type" {
 
 Test it here [Code](Test-BeOfType.ps1)
 
-## General Tips
+### General Tips
 
 > all Pester test scripts must end with .Tests.ps1 in order for Invoke-Pester to run them
+
+
+## Links
+
+[**Next** Cloud Automation Declarative](06_Cloud_Automation_Declarative.md)
+
+- [Tabel of contents](README.md)
+- [Home](../README.md)

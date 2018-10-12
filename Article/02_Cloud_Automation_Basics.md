@@ -1,12 +1,12 @@
-# Cloud Automation Basics
+# Cloud Automation Basics [<](01_Cloud_Automation_Theory.md) [>](03_Cloud_Automation_Advanced.md)
 
 ## Table of content
-
-- Azure Automation Account
-- Azure Automation Account Assets
-- Azure Runbook
-- Azure Workflows
-- Azure Resource Manager Template
+- [Azure Automation Account](#azure-automation-account)
+    - [Azure Automation Account Assets](#azure-automation-account-assets)
+- [Azure Runbook](#azure-runbook)
+- [Azure Workflows](#azure-workflows)
+- [Azure Resource Manager Template](#azure-resource-manager-template)
+- [Links](#links)
 
 ## Azure Automation Account
 
@@ -55,12 +55,9 @@ By design, workflows can be long-running, repeatable, frequent, parallelizable, 
 - **outputs:** Values that are returned after deployment
 
 
-## Next
+## Links
 
-[Cloud Automation Advanced](03_Cloud_Automation.md)
+[**Next** Cloud Automation Advanced](03_Cloud_Automation_Advanced.md)
 
-## Home
-
-[Tabel of contents](README.md)
-
-[Home](../README.md)
+- [Tabel of contents](README.md)
+- [Home](../README.md)
