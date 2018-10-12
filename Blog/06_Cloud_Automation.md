@@ -74,3 +74,9 @@ How to structure and design your ARM templates.
 ## Next
 
 [Cloud Automation DevOps](07_Cloud_Automation.md)
+
+## Home
+
+[Tabel of contents](README.md)
+
+[Home](../README.md)

@@ -58,3 +58,9 @@ By design, workflows can be long-running, repeatable, frequent, parallelizable, 
 ## Next
 
 [Cloud Automation Advanced](03_Cloud_Automation.md)
+
+## Home
+
+[Tabel of contents](README.md)
+
+[Home](../README.md)
