@@ -39,7 +39,7 @@ Table to list the common commands used in git
 They are ordered by execution flow.
 
 | Command                                   | Description                                                                                                                                                                      |
-| :---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -- | -- |
 | git status                                | Show the working tree status                                                                                                                                                     |
 | git fetch                                 | Updates the local repository with all remote changes                                                                                                                             |
 | git pull                                  | Fetch from and integrate with another repository or a local branch                                                                                                               |
