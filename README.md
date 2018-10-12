@@ -2,8 +2,8 @@
 
  Introduction to Cloud Automation, Azure DevOps, Infrastructure As Code (IaC), PowerShell, Azure Resource Manager (ARM), Unit-Testing with Pester, CI/CD Pipeline with Azure DevOps and more!
 
- - Link to [Blog](https://github.com/mark-mit-k/Cloud-Automation-101/blob/master/Blog/README.md)
- - Link to [Code](https://github.com/mark-mit-k/Cloud-Automation-101/blob/master/Code/README.md)
+ - Link to [Blog](/Blog/)
+ - Link to [Code](/Code/)
 
 ## What is Cloud Automation
 
@@ -152,8 +152,8 @@ Links to dive deep into ARM templates and explorer existing infrastructure
 
 - [softwaretestingfundamentals](http://softwaretestingfundamentals.com/)
 - [docs.microsoft](https://docs.microsoft.com/en-us/azure/azure-resource-manager/)
-- [wikipedia](https://en.wikipedia.org/wiki/Infrastructure_as_Code)
-- [wikipedia](https://en.wikipedia.org/wiki/DevOps)
+- [wikipedia Inrastructure_as_Code](https://en.wikipedia.org/wiki/Infrastructure_as_Code)
+- [wikipedia DevOps](https://en.wikipedia.org/wiki/DevOps)
 - [derrickcawthon](http://derrickcawthon.com/2018/04/30/fast-start-infrastructure-as-code-using-azure-devtestlabs/)
 - [openedx.microsoft](https://openedx.microsoft.com/courses/course-v1:Microsoft+DEVOPS200.2x+2018_T1/info)
 - [blogs.msdn.microsoft.com/azuredev](https://blogs.msdn.microsoft.com/azuredev/2017/02/11/iac-on-azure-an-introduction-of-infrastructure-as-code-iac-with-azure-resource-manager-arm-template/)
