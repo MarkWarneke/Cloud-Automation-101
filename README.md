@@ -45,7 +45,7 @@ You define the state of the infrastructure you want to have and let the system d
 
 - Version Control [Link](#version-control)
 - Software Testing [Link](#software-testing)
-- Declarative [Link](#version-control)
+- Declarative [Link](#declarative)
 
 ### Version Control
 
