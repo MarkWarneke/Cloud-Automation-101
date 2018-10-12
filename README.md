@@ -43,9 +43,9 @@ A practice in Infrastructure as Code is to write your definitions in a declarati
 
 You define the state of the infrastructure you want to have and let the system do the work on getting there. In the following sections we will have a look at tools to implement the practice.
 
-- Version Control [Link](##Version-Control)
-- Software Testing [Link](##Software-Testing)
-- Declarative [Link](##Version-Control)
+- Version Control [Link](#version-control)
+- Software Testing [Link](#software-testing)
+- Declarative [Link](#version-control)
 
 ### Version Control
 
