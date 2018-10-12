@@ -16,7 +16,7 @@
 - Implement, configure, and apply Azure Resource Manager templates.
 - Use source control for configurations, and integrate Infrastructure as Code into the deployment pipeline.
 
-## Cloud Automation Theory
+## Introduction Cloud Automation Theory
 
 Distinguish between:
 
