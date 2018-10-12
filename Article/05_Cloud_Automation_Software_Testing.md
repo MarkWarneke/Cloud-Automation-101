@@ -109,7 +109,7 @@ Describe "how to clean up" {
 }
 ```
 
-Test it here [Code](\Code\Test-Cleanup.ps1)
+Test it here [Code](\Code\Pester\Test-Cleanup.ps1)
 
 **Notice**: Use the ForeGroundColor to distinguish the output of the test preparation / cleanup.
 If you are using [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) you should except `PSAvoidUsingWriteHost`
@@ -165,7 +165,7 @@ Describe "New-AzureRmResourceGroup Type" {
 }
 ```
 
-Test it here [Code](\Code\Test-BeOfType.ps1)
+Test it here [Code](\Code\Pester\Test-BeOfType.ps1)
 
 ### General Tips
 
