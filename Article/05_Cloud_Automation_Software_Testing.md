@@ -3,20 +3,20 @@
 ## Table of content
 
 - [Introduction](#introduction)
-    - [Unit Test](#unit-test)
-    - [Integration Test](#integration-test)
-    - [System Test](#system-test)
+  - [Unit Test](#unit-test)
+  - [Integration Test](#integration-test)
+  - [System Test](#system-test)
 - [Tools](#tools)
 - [Pester](#pester)
-    - [Install Pester](#install-pester)
-    - [Demonstration PEster](#demonstration-pester)
-    - [Assertion](#assertion)
-    - [Tips for working with Azure Resources](#tips-for-working-with-azure-resources)
-        - [Should](#should)
-            - [Throw](#throw)
-            - [BeOfType](#beoftype)
-    - [Checks Type](#checks-type)
-    - [General Tips](#general-tips)
+  - [Install Pester](#install-pester)
+  - [Demonstration PEster](#demonstration-pester)
+  - [Assertion](#assertion)
+  - [Tips for working with Azure Resources](#tips-for-working-with-azure-resources)
+    - [Should](#should)
+      - [Throw](#throw)
+      - [BeOfType](#beoftype)
+  - [Checks Type](#checks-type)
+  - [General Tips](#general-tips)
 - [Links](#links)
 
 ## Introduction
@@ -51,7 +51,7 @@ Link to [Pester](https://github.com/pester/Pester)
 Install-Module -Name Pester -Force -SkipPublisherCheck
 ```
 
-### Demonstration PEster
+### Demonstration Pester
 
 Run Test. You can also invoke your test by running `Invoke-Pester $Path`.
 
@@ -59,7 +59,7 @@ Run Test. You can also invoke your test by running `Invoke-Pester $Path`.
 Code\Pester\Test-Devision.ps1
 ```
 
-Test it here [Code](Code\Pester\Test-Division.ps1)
+Test it here [Code](..\Code\Pester\Test-Division.ps1)
 
 ### Assertion
 
@@ -109,7 +109,7 @@ Describe "how to clean up" {
 }
 ```
 
-Test it here [Code](Test-Cleanup.ps1)
+Test it here [Code](..\Code\Test-Cleanup.ps1)
 
 **Notice**: Use the ForeGroundColor to distinguish the output of the test preparation / cleanup.
 If you are using [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) you should except `PSAvoidUsingWriteHost`
@@ -165,7 +165,7 @@ Describe "New-AzureRmResourceGroup Type" {
 }
 ```
 
-Test it here [Code](Test-BeOfType.ps1)
+Test it here [Code](..\Code\Test-BeOfType.ps1)
 
 ### General Tips
 

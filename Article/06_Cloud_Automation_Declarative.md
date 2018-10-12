@@ -152,7 +152,7 @@ Specify the parameters by using a hashmap `@{ first = 1; second = 1}`
 # 11
 ```
 
-Try [code](Code/ARM/deploy.ps1)
+Try [code](../Code/ARM/deploy.ps1)
 
 ## ARM Linked Templates
 
