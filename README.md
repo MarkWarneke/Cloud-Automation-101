@@ -16,6 +16,8 @@
 
 [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
 
+So DevOps is about the union of people, process, and technology to enable continuous delivery of value to your end users.
+
 ## Why Cloud Automation
 
 - Consistency: Standardised provisioning
@@ -39,8 +41,7 @@
 
 A practice in Infrastructure as Code is to write your definitions in a declarative way versus an imperative way.
 
-You define the state of the infrastructure you want to have and let the system do the work on getting there
-In the followig sections I sescribe tools to implement this practice.
+You define the state of the infrastructure you want to have and let the system do the work on getting there. In the following sections we will have a look at tools to implement the practice.
 
 - Version Control [Link](##Version-Control)
 - Software Testing [Link](##Software-Testing)
@@ -59,7 +60,7 @@ Enables the method track and rollback changes to your infrastructure as needed. 
 - [Github](https://github.com/)
 - [Azure DevOps](https://dev.azure.com/)
 
-*Get Free AzureSubscription and Azure DevOps acces through [Visual Studio](http://my.visualstudio.com/)*
+*Get Free AzureSubscription and Azure DevOps access through [Visual Studio](http://my.visualstudio.com/)*
 
 ### Software Testing
 
@@ -85,7 +86,7 @@ Use templates and other resources to construct your Infrastructure as Code fast 
 
 #### Templates
 
-Use tested and repeatable templates to quickly create and manage your infrastructre. Current tools allow you to store your own custom snippets.
+Use tested and repeatable templates to quickly create and manage your infrastructure. Current tools allow you to store your own custom snippets.
 
 - Custom snippets with [VSCode snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets), see [Custom Snippets](##TODO: INSERT LINK HERE)
 - ARM templates from [Github: azure-quickstart-templates](https://github.com/Azure/azure-quickstart-templates)
@@ -130,9 +131,10 @@ Links to dive deep into ARM templates and explorer existing infrastructure
 - Each time you deploy, the infrastructure will be exactly the same
 - Easily change the resources you are using by changing code and not by changing infrastructure
 - Everything should be automated to:
-  - which will save a lot of time
-  - fewer manual configuration
-  - fewer errors
+  - save time
+  - make fewer manual configuration
+  - only allow tested changes
+  - ultimatly you will encounter fewer errors
 - All changes in the infrastructure are accessible in source control.
 - Source control gives great insight in why and what is changed and by whom.
 
