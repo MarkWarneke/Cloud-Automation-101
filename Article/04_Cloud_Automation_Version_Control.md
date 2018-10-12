@@ -71,5 +71,5 @@ Where `add .` stages all files. `commit -am` commits **a**ll changes with a give
 
 [**Next** Cloud Automation Software Testing](05_Cloud_Automation_Software_Testing.md)
 
-- [Tabel of contents](README.md)
+- [Table of contents](README.md)
 - [Home](../README.md)

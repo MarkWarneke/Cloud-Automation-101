@@ -79,5 +79,5 @@ https://openedx.microsoft.com/courses/course-v1:Microsoft+DEVOPS200.2x+2018_T1/i
 
 [**Next** Cloud Automation Basics](02_Cloud_Automation_Basics.md)
 
-- [Tabel of contents](README.md)
+- [Table of contents](README.md)
 - [Home](../README.md)

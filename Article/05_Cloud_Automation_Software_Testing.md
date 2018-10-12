@@ -176,5 +176,5 @@ Test it here [Code](..\Code\Test-BeOfType.ps1)
 
 [**Next** Cloud Automation Declarative](06_Cloud_Automation_Declarative.md)
 
-- [Tabel of contents](README.md)
+- [Table of contents](README.md)
 - [Home](../README.md)

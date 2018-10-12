@@ -29,11 +29,11 @@
 
 ## Products
 
-- Continious Integraion
-- Continious Delivery
+- Continuous Integration
+- Continuous Delivery
 - Pipeline
 
 ## Links
 
-- [Tabel of contents](README.md)
+- [Table of contents](README.md)
 - [Home](../README.md)

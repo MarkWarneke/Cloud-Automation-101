@@ -183,5 +183,5 @@ Find more about your existing infrastructure by using the Resource Explorer
 
 [**Next** Cloud Automation DevOps](07_Cloud_Automation_DevOps.md)
 
-- [Tabel of contents](README.md)
+- [Table of contents](README.md)
 - [Home](../README.md)

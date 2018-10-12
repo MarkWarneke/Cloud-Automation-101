@@ -19,5 +19,5 @@ See Runbook gallery Slack Webhook
 
 [**Next** Cloud Automation Version Control](04_Cloud_Automation_Version_Control.md)
 
-- [Tabel of contents](README.md)
+- [Table of contents](README.md)
 - [Home](../README.md)
