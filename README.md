@@ -8,13 +8,13 @@
 
 > Infrastructure as Code is the process of managing and provisioning computing infrastructure and its configuration through machine-processable definition files. It treats the infrastructure as a software system, applying software engineering practices to manage changes to the system in a repeatable, structured and safe way.
 
-https://en.wikipedia.org/wiki/Infrastructure_as_Code
+[Wikipedia: Infrastructe_As_Code](https://en.wikipedia.org/wiki/Infrastructure_as_Code)
 
 *My Definition of DevOps:*
 
 > DevOps (a clipped compound of “development” and “operations”) is a *culture, movement or practice* that emphasizes the *collaboration and communication* of both software developers and other information-technology (IT) professionals while *automating the process of software delivery and infrastructure changes*. It aims at establishing a culture and environment where *building, testing, and releasing software*, can happen *rapidly, frequently, and more reliably*.
 
-https://en.wikipedia.org/wiki/DevOps
+[Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
 
 ## Why Cloud Automation
 
@@ -65,8 +65,7 @@ Enables the method track and rollback changes to your infrastructure as needed. 
 
 *From [Testing Fundamentals](http://softwaretestingfundamentals.com/)*
 >Unit Testing is a level of software testing where individual units/ components of a software are tested.
-
->While integration testing is a level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
+>Integration testing is a level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
 
 **Tools:**
 
@@ -112,7 +111,7 @@ Use tested and repeatable templates to quickly create and manage your infrastruc
 
 #### ARM Quick Start Templates Collection
 
-- [Azure Quickstart Templates](https://azure.microsoft.com/en-us/resources/templates/) 
+- [Azure Quickstart Templates](https://azure.microsoft.com/en-us/resources/templates/)
 
 ### Further ARM Links
 
@@ -130,12 +129,11 @@ Links to dive deep into ARM templates and explorer existing infrastructure
 - Help you to create a robust and reliable infrastructure
 - Each time you deploy, the infrastructure will be exactly the same
 - Easily change the resources you are using by changing code and not by changing infrastructure
-
 - Everything should be automated to:
   - which will save a lot of time
   - fewer manual configuration
   - fewer errors
-- All changes in the infrastructure are accessible in source control. 
+- All changes in the infrastructure are accessible in source control.
 - Source control gives great insight in why and what is changed and by whom.
 
 ### DevOps
@@ -147,12 +145,11 @@ Links to dive deep into ARM templates and explorer existing infrastructure
 
 ## Sources
 
-
-- http://softwaretestingfundamentals.com/
-- https://docs.microsoft.com/en-us/azure/azure-resource-manager/
-- https://en.wikipedia.org/wiki/Infrastructure_as_Code
-- https://en.wikipedia.org/wiki/DevOps
-- http://derrickcawthon.com/2018/04/30/fast-start-infrastructure-as-code-using-azure-devtestlabs/
-- https://openedx.microsoft.com/courses/course-v1:Microsoft+DEVOPS200.2x+2018_T1/info
-- https://blogs.msdn.microsoft.com/azuredev/2017/02/11/iac-on-azure-an-introduction-of-infrastructure-as-code-iac-with-azure-resource-manager-arm-template/
-- https://blogs.msdn.microsoft.com/mvpawardprogram/2018/02/13/infrastructure-as-code/
+- [softwaretestingfundamentals](http://softwaretestingfundamentals.com/)
+- [docs.microsoft](https://docs.microsoft.com/en-us/azure/azure-resource-manager/)
+- [wikipedia](https://en.wikipedia.org/wiki/Infrastructure_as_Code)
+- [wikipedia](https://en.wikipedia.org/wiki/DevOps)
+- [derrickcawthon](http://derrickcawthon.com/2018/04/30/fast-start-infrastructure-as-code-using-azure-devtestlabs/)
+- [openedx.microsoft](https://openedx.microsoft.com/courses/course-v1:Microsoft+DEVOPS200.2x+2018_T1/info)
+- [blogs.msdn.microsoft.com/azuredev](https://blogs.msdn.microsoft.com/azuredev/2017/02/11/iac-on-azure-an-introduction-of-infrastructure-as-code-iac-with-azure-resource-manager-arm-template/)
+- [blogs.msdn.microsoft.com/mvpawardprogram]( https://blogs.msdn.microsoft.com/mvpawardprogram/2018/02/13/infrastructure-as-code/)
