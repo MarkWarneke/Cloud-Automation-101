@@ -2,7 +2,7 @@
 
  Introduction to Cloud Automation, Azure DevOps, Infrastructure As Code (IaC), PowerShell, Azure Resource Manager (ARM), Unit-Testing with Pester, CI/CD Pipeline with Azure DevOps and more!
 
- - Link to [Blog](Blog)
+ - Link to [Article](Article)
  - Link to [Code](Code)
 
 ## What is Cloud Automation
