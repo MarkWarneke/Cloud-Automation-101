@@ -18,3 +18,7 @@
 - [Azure DevOps](https://dev.azure.com/)
 
 *Get Free AzureSubscription and Azure DevOps access through [Visual Studio](http://my.visualstudio.com/)*
+
+## Next
+
+[Cloud Automation Software Testing](05_Cloud_Automation.md)

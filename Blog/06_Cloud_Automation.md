@@ -70,3 +70,7 @@ How to structure and design your ARM templates.
 ## ARM Deployment Order
 
  [Define the order for deploying resources in Azure Resource Manager Templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-define-dependencies)
+
+## Next
+
+[Cloud Automation DevOps](07_Cloud_Automation.md)

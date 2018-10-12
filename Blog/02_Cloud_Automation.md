@@ -53,3 +53,8 @@ By design, workflows can be long-running, repeatable, frequent, parallelizable, 
 - **parameters:** Optional values that are provided when deployment is executed to customize resource deployment.
 - **resources:** A manageable item that is available through Azure. Some common resources are a virtual machine, storage account, web app, database, and virtual network, but there are many more.
 - **outputs:** Values that are returned after deployment
+
+
+## Next
+
+[Cloud Automation Advanced](03_Cloud_Automation.md)

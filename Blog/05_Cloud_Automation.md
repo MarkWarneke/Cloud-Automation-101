@@ -28,3 +28,7 @@ Complete System
 
 - PowerShell Unittest [Pester](https://github.com/pester/Pester)
 - Python Unittest [unittest](https://docs.python.org/3/library/unittest.html)
+
+## Next
+
+[Cloud Automation Declarative](06_Cloud_Automation.md)
