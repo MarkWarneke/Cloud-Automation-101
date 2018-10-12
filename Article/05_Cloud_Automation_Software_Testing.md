@@ -59,7 +59,7 @@ Run Test. You can also invoke your test by running `Invoke-Pester $Path`.
 Code\Pester\Test-Devision.ps1
 ```
 
-Test it here [Code](..\Code\Pester\Test-Division.ps1)
+Test it here [Code](\Code\Pester\Test-Division.ps1)
 
 ### Assertion
 
@@ -109,7 +109,7 @@ Describe "how to clean up" {
 }
 ```
 
-Test it here [Code](..\Code\Test-Cleanup.ps1)
+Test it here [Code](\Code\Test-Cleanup.ps1)
 
 **Notice**: Use the ForeGroundColor to distinguish the output of the test preparation / cleanup.
 If you are using [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) you should except `PSAvoidUsingWriteHost`
@@ -165,7 +165,7 @@ Describe "New-AzureRmResourceGroup Type" {
 }
 ```
 
-Test it here [Code](..\Code\Test-BeOfType.ps1)
+Test it here [Code](\Code\Test-BeOfType.ps1)
 
 ### General Tips
 
