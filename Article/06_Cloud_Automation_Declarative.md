@@ -5,14 +5,14 @@
 - [Introduction](#introduction)
 - [Declarative vs Imperative](#declarative-vs-imperative)
 - [Snippets](#snippets)
-    - [VSCode ARM Snippets](#vscode-arm-snippets)
+  - [VSCode ARM Snippets](#vscode-arm-snippets)
 - [Azure Resource Manager Template](#azure-resource-manager-template)
 - [Installation AzureRm Module](#installation-azurerm-module)
 - [Login](#login)
 - [ARM Template Quick Start](#arm-template-quick-start)
 - [ARM Compose](#arm-compose)
 - [ARM Functions](#arm-functions)
-    - [Example Function Add](#example-function-add)
+  - [Example Function Add](#example-function-add)
 - [ARM Linked Templates](#arm-linked-templates)
 - [ARM Nested Templates](#arm-nested-templates)
 - [ARM Deployment Order](#arm-deployment-order)
@@ -73,24 +73,6 @@ Define your own VSCode snippets by pressing CTRL + Shift + P -> Preferences: Con
 }
 ```
 
-## Azure Resource Manager Template
-
-[Azure Resource Manager Template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates)
-
-```JSON
-{
-    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
-    "contentVersion": "",
-    "parameters": {  },
-    "variables": {  },
-    "functions": [  ],
-    "resources": [  ],
-    "outputs": {  }
-}
-```
-
-[Understand the structure and syntax of Azure Resource Manager Templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates)
-
 ## Installation AzureRm Module
 
 [Installation Guide](https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-6.10.0)
@@ -112,9 +94,30 @@ Connect-AzureRmAccount
 It is possible to the the context so you won't need to log in every time you want to use your subscription.
 `Enable-AzureRmContextAutosave` see [docs](https://docs.microsoft.com/en-us/powershell/module/azurerm.profile/enable-azurermcontextautosave?view=azurermps-6.10.0)
 
-## ARM Template Quick Start
+## Azure Resource Manager Template
 
-[Azure Quickstart Templates](https://azure.microsoft.com/en-us/resources/templates/)
+[Azure Resource Manager Template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates)
+
+```JSON
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "",
+    "parameters": {  },
+    "variables": {  },
+    "functions": [  ],
+    "resources": [  ],
+    "outputs": {  }
+}
+```
+
+
+- [Get Started Blog](https://blogs.msdn.microsoft.com/azuredev/2017/05/06/iac-on-azure-how-to-get-started-with-arm-template/)
+- [Understand the structure and syntax of Azure Resource Manager Templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates)
+- [Quickstart: Create and deploy Azure Resource Manager templates by using the Azure portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-the-portal)
+
+## Azure Resource Manager Quick Start Templates Collection
+
+- [Azure Quickstart Templates](https://azure.microsoft.com/en-us/resources/templates/)
 
 ## ARM Compose
 
@@ -168,6 +171,13 @@ TODO: TBD
  [Define the order for deploying resources in Azure Resource Manager Templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-define-dependencies)
 
 TODO: TBD
+
+### Azure Resource Explorer
+
+Find more about your existing infrastructure by using the Resource Explorer
+
+- [Azure Resource Explorer](https://resources.azure.com/)
+
 
 ## Links
 
