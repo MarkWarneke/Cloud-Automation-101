@@ -73,11 +73,17 @@ Changes are committed, and the build process spins up a new server and deploys t
 - **Running backups.** Azure Automation is very helpful for running regular backups of non-database systems, such as backing up Blob storage at certain intervals.
 - **Deploying patches.** Azure Automation allows you to develop a runbook to manage the updates at scheduled times to manage patch remediation. Ensure machines continually align with configured security policy.
 
-## Next
-
-[Cloud Automation Basics](02_Cloud_Automation.md)
 
 ## Source
 
 [openedx.microsoft - DEVOPS200](
 https://openedx.microsoft.com/courses/course-v1:Microsoft+DEVOPS200.2x+2018_T1/info)
+
+## Next
+
+[Cloud Automation Basics](02_Cloud_Automation.md)
+
+## Home
+
+[Tabel of contents](README.md)
+[Home](../README.md)

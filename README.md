@@ -157,4 +157,4 @@ Links to dive deep into ARM templates and explorer existing infrastructure
 - [derrickcawthon](http://derrickcawthon.com/2018/04/30/fast-start-infrastructure-as-code-using-azure-devtestlabs/)
 - [openedx.microsoft](https://openedx.microsoft.com/courses/course-v1:Microsoft+DEVOPS200.2x+2018_T1/info)
 - [blogs.msdn.microsoft.com/azuredev](https://blogs.msdn.microsoft.com/azuredev/2017/02/11/iac-on-azure-an-introduction-of-infrastructure-as-code-iac-with-azure-resource-manager-arm-template/)
-- [blogs.msdn.microsoft.com/mvpawardprogram]( https://blogs.msdn.microsoft.com/mvpawardprogram/2018/02/13/infrastructure-as-code/)
+- [blogs.msdn.microsoft.com/mvpawardprogram](https://blogs.msdn.microsoft.com/mvpawardprogram/2018/02/13/infrastructure-as-code/)
