@@ -39,7 +39,7 @@ Table to list the common commands used in git
 They are ordered by execution flow.
 
 | Command                                   | Description                                                                                                                                                                      |
-| -- | -- |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | git status                                | Show the working tree status                                                                                                                                                     |
 | git fetch                                 | Updates the local repository with all remote changes                                                                                                                             |
 | git pull                                  | Fetch from and integrate with another repository or a local branch                                                                                                               |
@@ -50,7 +50,8 @@ They are ordered by execution flow.
 | git add <PATH_TO_FILE>                    | Adds a specific file to the staging (Needs commit after)                                                                                                                         |
 | git commit -am "Text"                     | Commit the changes (provide a descriptive message like "adds" ,"removes", "fixes" - those commit messages should describe the changes made)                                      |
 | git push                                  | Update remote refs along with associated objects                                                                                                                                 |
-A common sequence to checkin is
+
+A common sequence to check in code is:
 
 ```Bash
 git add .
