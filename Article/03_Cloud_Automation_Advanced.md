@@ -2,9 +2,11 @@
 
 ## Table of content
 
-- [Azure Log Analytics Integration](#azure-log-analytics-integration)
-- [Chat Ops](#chat-ops)
-- [Links](#links)
+- [Cloud Automation Advanced < >](#cloud-automation-advanced--)
+    - [Table of content](#table-of-content)
+    - [Azure Log Analytics Integration](#azure-log-analytics-integration)
+    - [Chat Ops](#chat-ops)
+    - [Links](#links)
 
 ## Azure Log Analytics Integration
 

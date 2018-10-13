@@ -2,15 +2,17 @@
 
 ## Table of content
 
-- [Objectives](#objectives)
-- [Introduction Cloud Automation Theory](#introduction-cloud-automation-theory)
-- [Idempotence](#idempotence)
-- [Approach](#approach)
-- [Type](#type)
-- [Goal](#goal)
-- [Common automation tasks](#common-automation-tasks)
-- [Source](#source)
-- [Links](#links)
+- [Cloud Automation Theory >](#cloud-automation-theory-)
+    - [Table of content](#table-of-content)
+    - [Objectives](#objectives)
+    - [Introduction Cloud Automation Theory](#introduction-cloud-automation-theory)
+    - [Idempotence](#idempotence)
+    - [Approach](#approach)
+    - [Type](#type)
+    - [Goal](#goal)
+    - [Common automation tasks](#common-automation-tasks)
+    - [Source](#source)
+    - [Links](#links)
 
 ## Objectives
 
