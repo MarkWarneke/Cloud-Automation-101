@@ -26,7 +26,20 @@ TODO: Include Automation Account details
 
 ## Azure Runbook
 
-TODO: Describe runbook and demo
+See [Runbook](../Code/Runbook)
+
+- [Azure Automation runbook](https://docs.microsoft.com/en-us/azure/automation/automation-runbook-types)
+- [Starting a runbook in Azure Automation](https://docs.microsoft.com/en-us/azure/automation/automation-starting-a-runbook)
+
+## Starting A Runbook
+
+```PowerShell
+Start-AzureRmAutomationRunbook -AutomationAccountName "MyAutomationAccount" -Name "Test-Runbook" -ResourceGroupName "ResourceGroup01"
+```
+
+## Graphical Runbook
+
+- [Graphical runbook](https://docs.microsoft.com/en-us/azure/automation/automation-first-runbook-graphical)
 
 ## Azure Workflows
 
