@@ -37,6 +37,21 @@ See [Runbook](../Code/Runbook)
 Start-AzureRmAutomationRunbook -AutomationAccountName "MyAutomationAccount" -Name "Test-Runbook" -ResourceGroupName "ResourceGroup01"
 ```
 
+## Importing A Runbook
+
+```PowerShell
+$Input = @{
+    AutomationAccountName =  "AutomationAccount"
+    Name = "Sample_TestRunbook"
+    Path = "C:\Runbooks\Sample_TestRunbook.ps1"
+    ResourceGroupName = "ResourceGroup"
+}
+
+Import-AzureRMAutomationRunbook @Input -Type PowerShellWorkflow # Splatting Input Parameter see Link
+```
+
+*See [About Splatting (about_splatting)](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_splatting?view=powershell-6)*
+
 ## Graphical Runbook
 
 - [Graphical runbook](https://docs.microsoft.com/en-us/azure/automation/automation-first-runbook-graphical)
