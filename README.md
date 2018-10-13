@@ -11,15 +11,16 @@ You can find detailed descirption of the topic in the [Article](Article) and Dem
 
 *My Definition of Infrastructure as Code:*
 
-> Infrastructure as Code is the process of managing and provisioning computing infrastructure and its configuration through machine-processable definition files. It treats the infrastructure as a software system, applying software engineering practices to manage changes to the system in a repeatable, structured and safe way.
+> Infrastructure as Code (IaC) is the management of infrastructure in a descriptive model, using the same versioning as DevOps team uses for source code. Like the principle that the same source code generates the same binary, an IaC model generates the same environment every time it is applied
 
-[Wikipedia: Infrastructe_As_Code](https://en.wikipedia.org/wiki/Infrastructure_as_Code)
+[Docs](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-infrastructure-as-code)
 
 *My Definition of DevOps:*
 
-> DevOps (a clipped compound of “development” and “operations”) is a *culture, movement or practice* that emphasizes the *collaboration and communication* of both software developers and other information-technology (IT) professionals while *automating the process of software delivery and infrastructure changes*. It aims at establishing a culture and environment where *building, testing, and releasing software*, can happen *rapidly, frequently, and more reliably*.
+> DevOps is the union of people, process, and products to enable continuous delivery of value to our end users. The contraction of “Dev” and “Ops” refers to replacing siloed Development and Operations to create multidisciplinary teams that now work together with shared and efficient practices and tools. Essential DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications.
 
-[Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
+
+[Docs](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops)
 
 So DevOps is about the union of people, process, and technology to enable continuous delivery of value to your end users.
 
@@ -78,8 +79,8 @@ You define the state of the infrastructure you want to have and let the system d
 
 - [softwaretestingfundamentals](http://softwaretestingfundamentals.com/)
 - [docs.microsoft](https://docs.microsoft.com/en-us/azure/azure-resource-manager/)
-- [wikipedia Inrastructure_as_Code](https://en.wikipedia.org/wiki/Infrastructure_as_Code)
-- [wikipedia DevOps](https://en.wikipedia.org/wiki/DevOps)
+- [What is Infrastructure as Code](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-infrastructure-as-code)
+- [What is DevOps?](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops)
 - [derrickcawthon](http://derrickcawthon.com/2018/04/30/fast-start-infrastructure-as-code-using-azure-devtestlabs/)
 - [openedx.microsoft](https://openedx.microsoft.com/courses/course-v1:Microsoft+DEVOPS200.2x+2018_T1/info)
 - [blogs.msdn.microsoft.com/azuredev](https://blogs.msdn.microsoft.com/azuredev/2017/02/11/iac-on-azure-an-introduction-of-infrastructure-as-code-iac-with-azure-resource-manager-arm-template/)
