@@ -58,10 +58,10 @@ Install-Module -Name Pester -Force -SkipPublisherCheck
 Run Test. You can also invoke your test by running `Invoke-Pester $Path`.
 
 ```PowerShell
-Code\Pester\Test-Devision.ps1
+Code\Pester\Test-Division.ps1
 ```
 
-Test it here [Code](.\Code\Pester\Test-Division.ps1)
+Test it here [Code](..\Code\Pester\Test-Division.ps1)
 
 ### Assertion
 
