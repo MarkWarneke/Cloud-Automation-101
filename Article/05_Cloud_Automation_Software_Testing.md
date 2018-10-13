@@ -65,7 +65,7 @@ Test it here [Code](..\Code\Pester\Test-Division.ps1)
 
 ### Assertion
 
-Example of how to do assertions. You can use the Pipe "|" and Should function to test the output.
+Example of how to do assertions. You can use the Pipe \"\|\" and Should function to test the output.
 
 ```PowerShell
 Describe 'Notepad' {
