@@ -2,22 +2,24 @@
 
 ## Table of content
 
-- [Introduction](#introduction)
-  - [Unit Test](#unit-test)
-  - [Integration Test](#integration-test)
-  - [System Test](#system-test)
-- [Tools](#tools)
-- [Pester](#pester)
-  - [Install Pester](#install-pester)
-  - [Demonstration PEster](#demonstration-pester)
-  - [Assertion](#assertion)
-  - [Tips for working with Azure Resources](#tips-for-working-with-azure-resources)
-    - [Should](#should)
-      - [Throw](#throw)
-      - [BeOfType](#beoftype)
-  - [Checks Type](#checks-type)
-  - [General Tips](#general-tips)
-- [Links](#links)
+- [Cloud Automation Software Testing < >](#cloud-automation-software-testing--)
+    - [Table of content](#table-of-content)
+    - [Introduction](#introduction)
+        - [Unit Test](#unit-test)
+        - [Integration Test](#integration-test)
+        - [System Test](#system-test)
+    - [Tools](#tools)
+    - [Pester](#pester)
+        - [Install Pester](#install-pester)
+        - [Demonstration Pester](#demonstration-pester)
+        - [Assertion](#assertion)
+        - [Tips for working with Azure Resources](#tips-for-working-with-azure-resources)
+            - [Should](#should)
+                - [Throw](#throw)
+                - [BeOfType](#beoftype)
+- [Checks Type](#checks-type)
+        - [General Tips](#general-tips)
+    - [Links](#links)
 
 ## Introduction
 
@@ -59,7 +61,7 @@ Run Test. You can also invoke your test by running `Invoke-Pester $Path`.
 Code\Pester\Test-Devision.ps1
 ```
 
-Test it here [Code](\Code\Pester\Test-Division.ps1)
+Test it here [Code](.\Code\Pester\Test-Division.ps1)
 
 ### Assertion
 

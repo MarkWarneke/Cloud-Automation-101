@@ -2,13 +2,15 @@
 
 ## Table of content
 
-- [Version Control Introduction](#version-control-introduction)
-- [Version Control Tools](#version-control-tools)
-    - [Git Introduction](#git-introduction)
-    - [Git Installation](#git-installation)
-    - [Git Common Commands](#git-common-commands)
-- [Repositories](#repositories)
-- [Links](#links)
+- [Cloud Automation Version Control < >](#cloud-automation-version-control--)
+    - [Table of content](#table-of-content)
+    - [Version Control Introduction](#version-control-introduction)
+    - [Version Control Tools](#version-control-tools)
+        - [Git Introduction](#git-introduction)
+        - [Git Installation](#git-installation)
+        - [Git Common Commands](#git-common-commands)
+    - [Repositories](#repositories)
+    - [Links](#links)
 
 ## Version Control Introduction
 > Version control systems are software that help you track changes you make in your code over time. As you edit to your code, you tell the version control system to take a snapshot of your files. The version control system saves that snapshot permanently so you can recall it later if you need it.
@@ -60,6 +62,7 @@ git push
 ```
 
 Where `add .` stages all files. `commit -am` commits **a**ll changes with a given **m**essage. And `push` changes into remote repository.
+For more details see [Save and share code with Git](https://docs.microsoft.com/en-us/azure/devops/learn/git/git-share-code)
 
 ## Repositories
 
