@@ -14,15 +14,15 @@
 The deployment log of an ARM template deployment can be access by the `Get-AzureRMLog` function.
 
 ```PowerShell
-	$ResourceGroupName = 'deploymentGroupName'
-	$correlationId = ((Get-AzureRMLog -x $ResourceGroupName)[0]).CorrelationId
-	$logentry = (Get-AzureRMLog -CorrelationId $correlationId -DetailedOutput)
+$ResourceGroupName = 'deploymentGroupName'
+$correlationId = ((Get-AzureRMLog -x $ResourceGroupName)[0]).CorrelationId
+$logentry = (Get-AzureRMLog -CorrelationId $correlationId -DetailedOutput)
 
-	#$logentry
-	$rawStatusMessage = $logentry.Properties
-	$status = $rawStatusMessage.Content.statusMessage | ConvertFrom-Json
-	$status.error.details
-	$status.error.details.details
+#$logentry
+$rawStatusMessage = $logentry.Properties
+$status = $rawStatusMessage.Content.statusMessage | ConvertFrom-Json
+$status.error.details
+$status.error.details.details
 ```
 
 ## Azure Log Analytics Integration
