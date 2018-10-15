@@ -29,3 +29,25 @@ This Workshop will introduce you to
     - Deployment
 
 ## Table of content
+
+- Storage Account
+- VNET
+- Subnet
+- NSG
+- KVLT
+- Password (KVLT)
+- Server (DSVM-Image)
+- Azure SQL Server
+- Tag (Time to shutdown)
+
+## Session
+
+- Imperative PowerShell
+- Declarative ARM
+- (Declarative TerraForm)
+
+How to do runbook
+
+- Shutdown of DSVM
+- Variable
+- Tag

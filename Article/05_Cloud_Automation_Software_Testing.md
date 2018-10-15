@@ -18,6 +18,14 @@
                 - [Throw](#throw)
                 - [BeOfType](#beoftype)
 - [Checks Type](#checks-type)
+        - [Runnig Pester in the Background](#runnig-pester-in-the-background)
+- [Invoke with Output Object](#invoke-with-output-object)
+- [Get Summary of Pester](#get-summary-of-pester)
+- [Display only Failed Tests](#display-only-failed-tests)
+- [PowerShell saves all Errors in $Error Variable](#powershell-saves-all-errors-in-error-variable)
+- [Prioritize Error](#prioritize-error)
+- [List All Error Members of latests Error Message](#list-all-error-members-of-latests-error-message)
+- [Stack Trace of Error of latest Error Message](#stack-trace-of-error-of-latest-error-message)
         - [General Tips](#general-tips)
     - [Links](#links)
 
@@ -169,9 +177,60 @@ Describe "New-AzureRmResourceGroup Type" {
 
 Test it here [Code](..\Code\Pester\Test-BeOfType.ps1)
 
+### Runnig Pester in the Background
+
+Sometimes you are running Pester on a large set of test cases which will for instance just check you PowerShell style see PSScriptAnalyzer.
+In order to see a summary of you Pester tests you can use the `-PassThru` switch. This allows you to query a Pester object after the tests finish.
+So you are able to run the `Invoke-Pester` inside a PowerShell job and just have a look at the returned variable.
+
+```PowerShell
+# Invoke with Output Object
+$pester = Invoke-Pester -PassThru
+
+# Get Summary of Pester
+$pester
+
+# Display only Failed Tests
+$pester.TestResult | ? { $_.Result -eq 'Failed' }
+```
+
+Depending on the amount of errors you can drill into the erros after the tests completion.
+PowerShell will save the errors into the Global Variable Error `$Global:Error`
+
+Best practice should be to clear the error variable in the active PowerShell session before each Pester run.
+
+```PowerShell
+# PowerShell saves all Errors in $Error Variable
+$global:Error.Clear()
+$global:ErrorView = "NormalView"
+```
+
+Afterwards you will have a clean Error history in the Error variable that you can look into.
+The last Error will be stored in `$Error[0]` as the variable is an array of errors.
+
+```PowerShell
+# Prioritize Error
+$Error |
+    Group-Object |
+    Sort-Object -Property Count -Descending |
+    Format-Table -Property Count, Name -AutoSize
+
+# List All Error Members of latests Error Message
+$Error[0] | fl * -Force
+$Error[0].Exception | fl * -Force
+
+# Stack Trace of Error of latest Error Message
+$Error[0].StackTrace
+$Error[0].Exception.StackTrace
+```
+
+Thanks Kirk Munro: [Become a PowerShell Debugging Ninja](https://www.youtube.com/watch?v=zhjU24hbYuI)
+
 ### General Tips
 
 > all Pester test scripts must end with .Tests.ps1 in order for Invoke-Pester to run them
+
+> [Secure DevOps Kit](https://azure.microsoft.com/en-us/resources/videos/azure-friday-getting-started-with-the-secure-devops-kit-for-azure-azsk/)
 
 
 ## Links
