@@ -23,7 +23,7 @@ The deployment log of an ARM template deployment can be access by the `Get-Azure
 	$status = $rawStatusMessage.Content.statusMessage | ConvertFrom-Json
 	$status.error.details
 	$status.error.details.details
-``
+```
 
 ## Azure Log Analytics Integration
 
