@@ -90,3 +90,7 @@ Param(
     $Color
 )
 ```
+
+### Demo
+
+[Azure Instance Metadata service](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/instance-metadata-service)

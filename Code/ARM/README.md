@@ -20,7 +20,11 @@ Connect-AzureRmAccount
 it is possible to the the context so you won't need to log in every time you want to use your subscription.
 `Enable-AzureRmContextAutosave` see [docs](https://docs.microsoft.com/en-us/powershell/module/azurerm.profile/enable-azurermcontextautosave?view=azurermps-6.10.0)
 
-## Function Add
+## Funcitons
+
+[Ensure template functions work](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates-cloud-consistency#ensure-template-functions-work)
+
+### Function Add
 
 Run the `add.json` ARM template to add two parameters. This demonstrate the ARM function functionality. To run the Add-ARM use:
 

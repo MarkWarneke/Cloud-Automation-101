@@ -1,3 +1,7 @@
+# Test
+
+[Tips for testing and automation](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates-cloud-consistency#tips-for-testing-and-automation)
+
 # Pester
 
 Pester is the ubiquitous test and mock framework for PowerShell.
