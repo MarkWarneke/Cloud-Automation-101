@@ -51,3 +51,8 @@ How to do runbook
 - Shutdown of DSVM
 - Variable
 - Tag
+
+
+## Creation of VM
+
+[Quickstart: Create a Windows virtual machine in Azure with PowerShell](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell?toc=%2Fazure%2Fvirtual-machines%2Fwindows%2Ftoc.json)
