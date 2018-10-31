@@ -11,7 +11,6 @@ Get-AzResourceProvider |
     Sort-Object ProviderNamespace
 ```
 
-
 ### Resource Types
 
 ```PowerShell
@@ -25,7 +24,7 @@ Get-AzResourceProvider -ProviderNamespace Microsoft.Compute |
 
 `https://management.azure.com/subscriptions/{subscription-id}/providers/{provider-name}?&api-version={api-version}`
 
-``` PowerShell
+```PowerShell
 param ( [Parameter(Mandatory=$true)] $SubscriptionName, $ProviderName = 'Microsoft.Compute',
 $ResourceTypeName = 'virtualMachines')
 
@@ -38,7 +37,10 @@ $uri = 'https://management.azure.com/subscriptions/{0}/providers/{1}?&api-versio
 Invoke-WebRequest -Method Get -Uri $Uri
 ```
 
-Source: [msdn](https://msdn.microsoft.com/en-us/library/azure/dn790568.aspx)
+Source:
+
+- [docs](https://docs.microsoft.com/en-us/rest/api/resources/deployments/validate)
+- [msdn](https://msdn.microsoft.com/en-us/library/azure/dn790568.aspx)
 
 ## Source
 
