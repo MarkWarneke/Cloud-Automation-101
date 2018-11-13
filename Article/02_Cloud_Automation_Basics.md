@@ -1,11 +1,14 @@
 # Cloud Automation Basics [<](01_Cloud_Automation_Theory.md) [>](03_Cloud_Automation_Advanced.md)
 
 ## Table of content
-- [Cloud Automation Basics < >](#cloud-automation-basics--)
+- [Cloud Automation Basics < >](#cloud-automation-basics)
     - [Table of content](#table-of-content)
     - [Azure Automation Account](#azure-automation-account)
         - [Azure Automation Account Assets](#azure-automation-account-assets)
     - [Azure Runbook](#azure-runbook)
+    - [Starting A Runbook](#starting-a-runbook)
+    - [Importing A Runbook](#importing-a-runbook)
+    - [Graphical Runbook](#graphical-runbook)
     - [Azure Workflows](#azure-workflows)
     - [Azure Resource Manager Template](#azure-resource-manager-template)
     - [Links](#links)
