@@ -54,6 +54,33 @@ Values by parameters file can be provided by a simpler parameter file
 }
 ```
 
+## Complex Variable Constructs
+
+You can define complex variables like a HashMap/Dictionary with key value pairs.
+
+```JSON
+"variables": {
+    "environmentSettings": {
+        "test": {
+            "instanceSize": "Small",
+            "instanceCount": 1
+        }
+    }
+}
+```
+
+So you can access the complex variables using dot notation.
+
+```JSON
+"[variables('environmentSettings').test.instanceSize]"
+```
+
+You can combine this with a parameter provided to the ARM template. To make decicions in the code flexible.
+
+```JSON
+"[variables('environmentSettings')[parameters('environmentName')].instanceSize]"
+```
+
 ## Resources
 
 ```JSON

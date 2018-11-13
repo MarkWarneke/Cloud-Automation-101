@@ -1,6 +1,6 @@
 # Cloud-Automation-101
 
- Introduction to Cloud Automation, Azure DevOps, Infrastructure As Code (IaC), PowerShell, Azure Resource Manager (ARM), Unit-Testing with Pester, CI/CD Pipeline with Azure DevOps and more!
+Introduction to Cloud Automation, Azure DevOps, Infrastructure As Code (IaC), PowerShell, Azure Resource Manager (ARM), Unit-Testing with Pester, CI/CD Pipeline with Azure DevOps and more!
 
 You can find detailed description of the topic in the [Article](Article) and Demonstrations in the [Code](Code). Also you can find a detailed example to guide you through a Infrastructure as Code example in [Workshop](Workshop)
 
@@ -10,13 +10,13 @@ You can find detailed description of the topic in the [Article](Article) and Dem
 
 ## What is Cloud Automation
 
-*My Definition of Infrastructure as Code:*
+_My Definition of Infrastructure as Code:_
 
 > Infrastructure as Code (IaC) is the management of infrastructure in a descriptive model, using the same versioning as DevOps team uses for source code. Like the principle that the same source code generates the same binary, an IaC model generates the same environment every time it is applied
 
 [Docs](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-infrastructure-as-code)
 
-*My Definition of DevOps:*
+_My Definition of DevOps:_
 
 > DevOps is the union of people, process, and products to enable continuous delivery of value to our end users. The contraction of “Dev” and “Ops” refers to replacing siloed Development and Operations to create multidisciplinary teams that now work together with shared and efficient practices and tools. Essential DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications.
 
@@ -31,7 +31,7 @@ So DevOps is about the union of people, process, and technology to enable contin
 - Reusability: JSON code and pipeline
 - Extensibility: Extensible JSON
 
-*Characteristics of Infrastructure as Code:*
+_Characteristics of Infrastructure as Code:_
 
 - Declarative
 - Single source of truth
@@ -85,10 +85,11 @@ You define the state of the infrastructure you want to have and let the system d
 - [openedx.microsoft](https://openedx.microsoft.com/courses/course-v1:Microsoft+DEVOPS200.2x+2018_T1/info)
 - [blogs.msdn.microsoft.com/azuredev](https://blogs.msdn.microsoft.com/azuredev/2017/02/11/iac-on-azure-an-introduction-of-infrastructure-as-code-iac-with-azure-resource-manager-arm-template/)
 - [blogs.msdn.microsoft.com/mvpawardprogram](https://blogs.msdn.microsoft.com/mvpawardprogram/2018/02/13/infrastructure-as-code/)
+- [blogs.msdn.microsoft.com/mvpawardprogram](https://blogs.msdn.microsoft.com/mvpawardprogram/2018/05/01/azure-resource-manager/)
 
 ## Contact
 
 Contact me!
 
-- [twitter mark_mit_k_](https://twitter.com/mark_mit_k_)
+- [twitter mark*mit_k*](https://twitter.com/mark_mit_k_)
 - [mail](mailto:mark.warneke@microsoft.com)
