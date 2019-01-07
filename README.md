@@ -86,6 +86,7 @@ You define the state of the infrastructure you want to have and let the system d
 - [blogs.msdn.microsoft.com/azuredev](https://blogs.msdn.microsoft.com/azuredev/2017/02/11/iac-on-azure-an-introduction-of-infrastructure-as-code-iac-with-azure-resource-manager-arm-template/)
 - [blogs.msdn.microsoft.com/mvpawardprogram](https://blogs.msdn.microsoft.com/mvpawardprogram/2018/02/13/infrastructure-as-code/)
 - [blogs.msdn.microsoft.com/mvpawardprogram](https://blogs.msdn.microsoft.com/mvpawardprogram/2018/05/01/azure-resource-manager/)
+- [Blog: Stop using ARM, use CLI instead](https://pascalnaber.wordpress.com/2018/11/11/stop-using-arm-templates-use-the-azure-cli-instead/)
 
 ## Contact
 
