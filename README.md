@@ -92,5 +92,5 @@ You define the state of the infrastructure you want to have and let the system d
 
 Contact me!
 
-- [twitter mark*mit_k*](https://twitter.com/mark_mit_k_)
+- [twitter MarkWarneke](https://twitter.com/MarkWarneke)
 - [mail](mailto:mark.warneke@microsoft.com)
